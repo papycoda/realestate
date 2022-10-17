@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#react stuff "remove node_modules folder in frontend"
+node_modules
