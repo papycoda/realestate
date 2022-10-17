@@ -6,6 +6,10 @@ from .models import Listing
 from .serializers import ListingSerializer, ListingDetailSerializer
 from datetime import datetime, timedelta,timezone
 
+'''
+no create view because we are not creating listings from the frontend
+'''
+
 class ListingListView(ListAPIView):
     queryset = Listing.objects.order_by('-list_date').filter(is_published=True)
     serializer_class = ListingSerializer
