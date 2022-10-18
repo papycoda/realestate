@@ -7,7 +7,7 @@ from .models import Listing
 class ListingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Listing
-        fields = ('title', 'address', 'city',' state', 'description', 'sale_type', 'home_type', 'price', 'bedrooms', 'bathrooms', 'garage_spaces', 'sqft', 'photo_main', 'list_date')
+        fields = ('title', 'address', 'city','state', 'description', 'sale_type', 'home_type', 'price', 'bedrooms', 'bathrooms', 'garage_spaces', 'sqft', 'photo_main', 'list_date')
 
 class ListingDetailSerializer  (serializers.ModelSerializer):
     class Meta:
