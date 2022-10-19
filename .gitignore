@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 #react stuff "remove node_modules folder in frontend"
-/node_modules
+**/node_modules
+frontend/node_modules
